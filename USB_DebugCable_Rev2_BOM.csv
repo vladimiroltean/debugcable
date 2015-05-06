@@ -1,0 +1,25 @@
+Quantity,Reference Designator,Description,Package,Manufacturer,Part Number,Digikey Number,Cost Per Item (20 pcs),Cost Per Board (20pcs),Cost Per Item (100 pcs),Cost Per Board (100pcs),Notes
+3,"C1, C3, C6",CAP CER 0.1UF 6.3V 10% X5R 0402,0402,TDK Corporation,C1005X5R0J104K,445-1266-1-ND,$0.026,$0.078,$0.0121,$0.0363,
+1,C2,CAP CER 4.7UF 6.3V 10% X5R 0402,0402,TDK Corporation,C1005X5R0J475K,445-5947-1-ND,$0.35,$0.35,$0.175,$0.175,
+3,"C4, C5, C7",CAP CER 1UF 6.3V 10% X5R 0402,0402,TDK Corporation,C1005X5R0J105K,445-4998-1-ND,$0.04,$0.12,$0.0182,$0.0546,
+1,C8,CAP CER 10000PF 25V 10% X7R 0402,0402,TDK Corporation,C1005X7R1E103K,445-1260-2-ND,$0.024,$0.024,$0.011,$0.011,Need to find a cheaper 10nF 0402 cap
+2,"R1, R2",RES 120 OHM 1/10W 5% 0402 SMD,0402,Panasonic Electronic Components,ERJ-2GEJ121X,P120JCT-ND,$0.1,$0.2,$0.0131,$0.0262,
+1,R3,RES 33 OHM 1/10W 5% 0402 SMD,0402,Panasonic Electronic Components,ERJ-2GEJ330X,        P33JCT-ND,$0.1,$0.1,$0.0131,$0.0131,
+1,R4,RES TF 976K OHM 1% 1/16W 0402,0402,Stackpole Electronics Inc,RMCF0402FT976K,RMCF0402FT976KCT-ND,$0.025,$0.025,$0.0105,$0.0105,
+1,R5,RES 301K OHM 1/10W 1% 0402 SMD,0402,Panasonic Electronic Components,ERJ-2RKF3013X,P301KLCT-ND,$0.1,$0.1,$0.0184,$0.0184,
+1,PTC1,"        
+THERMISTOR PTC 33 OHM SMD
+",0603,Murata Electronics North America,PRG18BB330MB1RB,490-2471-1-ND       ,$0.736,$0.736,$0.3569,$0.3569,"Current - Hold (Ih) (Max)        29mA
+Current - Trip (It)        61mA"
+2,"TX, RX","LED CHIPLED BLUE 470NM 0603 SMD
+",0603,OSRAM Opto Semiconductors Inc,LB Q39G-L2N2-35-1,475-2816-1-ND        ,$0.175,$0.35,$0.1397,$0.2794,"Green is not available. Website says it is in production, but not in-stock on digikey"
+1,U1,IC USB FS SERIAL UART 32-QFN,QFN-32,"FTDI, Future Technology Devices International Ltd",FT232RQ,768-1008-1-ND,$4.05,$4.05,$3.65,$3.65,
+1,FB1,"FERRITE CHIP BEAD 40 OHM SMD
+",0603,TDK Corporation,MMZ1608S400A,445-2183-1-ND,$0.061,$0.061,$0.0363,$0.0363,Ferrite Bead (40 ohms @ 100MHz)
+1,U$1,CONN PLUG USB 4POS RT ANG SMD,"Surface Mount, Right Angle, Horizontal",Molex Inc,0480371000,WM17118-ND,$1.212,$1.212,$0.9245,$0.9245,
+1,CBL1,CBL ASSY 3.5MM SLIM 6' 4C BLK,Cable,Tensility International Corp,10-00341,839-1036-ND,$4.2,$4.2,$3.5,$3.5,This is the black cable.  There is a white equivalent that is an OK substitute for proto builds (839-1030-ND).
+1,U2,IC LDO REG 150MA HI-PSRR SC70-5,SC-70-5,Texas Instruments,TPS71701DCKR,296-22896-1-ND,$1.148,$1.148,$0.9072,$0.9072,
+1,U3,IC REG LDO 1.8V .15A SC70-5,SC-70-5,Texas Instruments,TPS71718DCKR,296-19646-1-ND,$1.148,$1.148,$0.9072,$0.9072,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,Total Per Board,,$13.902,,$10.9066,
